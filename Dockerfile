@@ -5,3 +5,4 @@ RUN sudo apt-get update && \
 RUN sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable && \
     sudo apt-get update && \
     sudo apt-get -y install golang
+RUN pwd
